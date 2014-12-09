@@ -30,6 +30,7 @@
         android:id="@+id/digits_container"
         android:layout_width="match_parent"
         android:layout_height="@dimen/dialpad_digits_height"
+        android:textColor="@color/dialpad_digits_text_color"
         android:orientation="horizontal">
 
         <ImageButton android:id="@+id/dialpad_overflow"
@@ -60,7 +61,7 @@
             android:freezesText="true"
             android:focusableInTouchMode="true"
             android:cursorVisible="false"
-            android:textColor="@color/dialpad_digits_text_color"
+            android:textColor="#ffffff"
             android:textCursorDrawable="@null"
             android:fontFamily="sans-serif-light"
             android:textStyle="normal"
@@ -91,7 +92,7 @@
         android:maxLength="2000"
         android:maxLines="3"
         android:minHeight="48dip"
-        android:textColor="@color/dialpad_digits_text_color"
+        android:textColor="#ffffff"
         android:textSize="16sp"
         android:visibility="gone"/>
     </LinearLayout>
